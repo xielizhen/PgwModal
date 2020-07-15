@@ -117,7 +117,7 @@
 
             // Check for Zepto
             if (typeof child.innerWidth != 'function') {
-                container.remove
+                container.remove()
                 return 0;
             }
 

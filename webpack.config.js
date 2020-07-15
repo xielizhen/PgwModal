@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   mode: 'production',
   entry: {
-    main: './pgwmodal.js'
+    pgwmodal: './pgwmodal.js'
   },
   output: {
     filename: '[name].min.js',
