@@ -6,10 +6,13 @@
   "main": "pgwmodal.js",
   "homepage": "https://pgwjs.com/pgwmodal",
   "author": "Jonathan M. Piat",
-  "license" : "GNU GPLv3",
+  "license": "GNU GPLv3",
   "repository": {
     "type": "git",
     "url": "https://github.com/Pagawa/PgwModal.git"
+  },
+  "scripts": {
+    "build": "webpack --watch"
   },
   "keywords": [
     "modal",
@@ -28,5 +31,11 @@
   ],
   "bugs": {
     "url": "https://github.com/Pagawa/PgwModal/issues"
+  },
+  "dependencies": {
+    "webpack": "^4.43.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
   }
 }
